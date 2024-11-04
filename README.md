@@ -1,4 +1,4 @@
-# Classification of speakers using combined Image and Audio information
+# Identity Recognition using Images and Audio Clips
 
 For the general concept, please see `docs/presentation.pdf`. 
 
@@ -30,5 +30,3 @@ The different python files at the root of the directory implement the general pi
 - `3_combine.py` trains a dense network on the audio and image embeddings created in the previous steps, and outputs the test accuracy. 
 
 The final test accuracy we obtain is 95.4%.
-
-The final performance metric is 93.79.
